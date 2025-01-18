@@ -1,5 +1,5 @@
 # web-postgresql
-## instalation in server 
+## configuration in server 
 - ```sudo apt update && upgarde -y```
 - ```sudo apt install apache2 php libapache2-mod-php php-pgsql postgresql-client -y```
 - ```sudo systemctl enable apache2```
