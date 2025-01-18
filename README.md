@@ -1,6 +1,6 @@
 # web-postgresql
 ## configuration in server 
-- ```sudo apt update && upgrade -y```
+- ```sudo apt update -y```
 - ```sudo apt install apache2 php libapache2-mod-php php-pgsql postgresql-client -y```
 - ```sudo systemctl enable apache2```
 - ```sudo systemctl start apache2```
@@ -18,7 +18,7 @@ CREATE TABLE <nama table> (
     description TEXT NOT NULL,
     price DECIMAL(10, 2) NOT NULL
 );
-\dt
+SELECT * FROM <nama table>;
 \q
 ```
 ---
